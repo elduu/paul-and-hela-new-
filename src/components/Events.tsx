@@ -94,35 +94,24 @@ const Events = () => {
           })}
         </div>
 
-        {/* Location Buttons */}
+        {/* Location Buttons - Pill Style */}
         <div
           ref={buttonsRef}
-          className={`mt-12 transition-all duration-700 ${
+          className={`mt-10 transition-all duration-700 ${
             buttonsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <h3 className="font-heading text-2xl text-foreground text-center mb-8">
-            Get Directions
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="flex flex-wrap justify-center gap-3">
             {locationButtons.map((loc) => (
               <a
                 key={loc.label}
                 href={loc.mapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="card-wedding p-6 text-center group cursor-pointer hover:border-secondary hover:shadow-xl transition-all duration-300"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border-2 border-foreground/80 bg-background font-body text-sm text-foreground hover:border-secondary hover:text-secondary transition-all duration-300"
               >
-                <span className="text-3xl block mb-3 group-hover:scale-110 transition-transform duration-300">
-                  {loc.icon}
-                </span>
-                <span className="font-heading text-sm md:text-base text-foreground block mb-2">
-                  {loc.label}
-                </span>
-                <span className="inline-flex items-center gap-1 text-xs font-body text-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <Navigation size={12} />
-                  Navigate
-                </span>
+                <span className="w-2 h-2 rounded-full bg-foreground/70" />
+                {loc.label}
               </a>
             ))}
           </div>

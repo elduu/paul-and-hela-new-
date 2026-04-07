@@ -176,4 +176,22 @@
     background-size: 200% auto;
     animation: shimmer 3s linear infinite;
   }
+
+  @keyframes slideLoop {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-slide-loop {
+    animation: slideLoop 20s linear infinite;
+  }
+
+  @keyframes marqueeScroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-marquee {
+    animation: marqueeScroll 25s linear infinite;
+  }
 }
