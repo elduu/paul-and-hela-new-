@@ -1,4 +1,4 @@
-import { MapPin, Clock } from "lucide-react";
+import { MapPin, Clock, Navigation } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const events = [
@@ -18,8 +18,32 @@ const events = [
   },
 ];
 
+const locationButtons = [
+  {
+    label: "Groom's House",
+    icon: "🏠",
+    mapUrl: "https://www.google.com/maps/search/Groom's+House+Addis+Ababa+Ethiopia",
+  },
+  {
+    label: "Bride's House",
+    icon: "🏡",
+    mapUrl: "https://www.google.com/maps/search/Bride's+House+Addis+Ababa+Ethiopia",
+  },
+  {
+    label: "Church",
+    icon: "⛪",
+    mapUrl: "https://www.google.com/maps/search/Holy+Trinity+Cathedral+Addis+Ababa+Ethiopia",
+  },
+  {
+    label: "Hotel",
+    icon: "🏨",
+    mapUrl: "https://www.google.com/maps/search/Capital+Hotel+Spa+Addis+Ababa+Ethiopia",
+  },
+];
+
 const Events = () => {
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
+  const { ref: buttonsRef, isVisible: buttonsVisible } = useScrollAnimation(0.2);
 
   return (
     <section id="events" className="section-padding bg-muted/30">
@@ -68,6 +92,40 @@ const Events = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* Location Buttons */}
+        <div
+          ref={buttonsRef}
+          className={`mt-12 transition-all duration-700 ${
+            buttonsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+        >
+          <h3 className="font-heading text-2xl text-foreground text-center mb-8">
+            Get Directions
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {locationButtons.map((loc) => (
+              <a
+                key={loc.label}
+                href={loc.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-wedding p-6 text-center group cursor-pointer hover:border-secondary hover:shadow-xl transition-all duration-300"
+              >
+                <span className="text-3xl block mb-3 group-hover:scale-110 transition-transform duration-300">
+                  {loc.icon}
+                </span>
+                <span className="font-heading text-sm md:text-base text-foreground block mb-2">
+                  {loc.label}
+                </span>
+                <span className="inline-flex items-center gap-1 text-xs font-body text-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <Navigation size={12} />
+                  Navigate
+                </span>
+              </a>
+            ))}
+          </div>
         </div>
 
         {/* Map */}
