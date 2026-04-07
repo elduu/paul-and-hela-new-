@@ -48,10 +48,10 @@ const Hero = () => {
         </h1>
         <div className="w-24 h-px bg-secondary mx-auto my-6" />
         <p className="text-background/90 font-body text-sm tracking-[0.2em] uppercase mb-2">
-          September 15, 2026
+      May 2, 2026
         </p>
         <p className="text-background/70 font-body text-sm tracking-[0.15em]">
-          Addis Ababa, Ethiopia
+          BETHEL FULL GOSPEL CHURCH
         </p>
 
         {/* Countdown */}
