@@ -17,16 +17,16 @@ const AboutSection = () => {
           </h2>
 
           <p className="font-body text-muted-foreground text-sm md:text-base italic leading-relaxed">
-            "Taste and see that the Lord is good; blessed is the one who takes refuge in him."
+            "the Lord alone guided him, no foreign god was with him."
           </p>
 
           <p className="font-heading text-base font-semibold text-foreground">
-            Psalms 34:8
+          Deuternomy 32:12
           </p>
 
           <p className="font-body text-muted-foreground text-sm md:text-base leading-relaxed">
             Together with our families, we joyfully invite you to celebrate our marriage on
-            <strong className="text-foreground"> 3 May 2026.</strong> The ceremony will be
+            <strong className="text-foreground"> 2 May 2026.</strong> The ceremony will be
             held at the <strong className="text-foreground">BETHEL FULL GOSPEL CHURCH,</strong>
           </p>
 

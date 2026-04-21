@@ -1,14 +1,33 @@
-import { Church, UtensilsCrossed, Camera, PartyPopper, Music } from "lucide-react";
+import { Church, UtensilsCrossed, Camera, PartyPopper, Music, UtensilsCrossedIcon } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const schedule = [
-  { time: "10:00 AM", title: "Ceremony", icon: Church, desc: "Exchange of vows" },
-  { time: "12:00 PM", title: "Lunch", icon: UtensilsCrossed, desc: "Traditional feast" },
-  { time: "3:00 PM", title: "Photos", icon: Camera, desc: "Capture memories" },
-  { time: "5:00 PM", title: "Reception", icon: PartyPopper, desc: "Cocktails & dinner" },
-  { time: "8:00 PM", title: "Celebration", icon: Music, desc: "Dance the night away" },
-];
+  {
+    time: "10:00 AM",
+    title: "Groom & Bride Houses",
+    icon: UtensilsCrossed,
+    desc: "Morning photo sessions at both groom’s and bride’s houses",
+  },
+  {
+    time: "12:00 PM",
+    title: "Bride’s House",
+    icon: PartyPopper,
+    desc: "Guests gather and move to the bride’s house",
+  },
+  {
+    time: "2:00 PM",
+    title: "Church Ceremony",
+    icon: Church,
+    desc: "Holy matrimony ceremony at the church",
+  },
+  {
+    time: "4:00 PM",
+    title: "Cake & Photos",
+    icon: Camera,
+    desc: "Cake cutting and photo session at the church",
+  },
 
+];
 const Schedule = () => {
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
 
