@@ -9,7 +9,7 @@ interface Photo {
 }
 
 const API_URL =
-  "https://apiinv.newblossomequb.net/api/wedding-photos";
+  "https://api.paulandhella.com/api/wedding-photos";
 
 const GuestPhotos = () => {
   const { ref, isVisible } = useScrollAnimation();

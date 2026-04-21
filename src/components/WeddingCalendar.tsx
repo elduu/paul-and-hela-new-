@@ -1,6 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Heart } from "lucide-react";
-import heroImg from "@/assets/hero-couple.jpg";
+import heroImg from "@/assets/cala.jpg";
 
 const WeddingCalendar = () => {
   const { ref, isVisible } = useScrollAnimation();

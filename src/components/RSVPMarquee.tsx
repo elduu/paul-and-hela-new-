@@ -14,7 +14,7 @@ const RSVPMarquee = () => {
     // Fetch messages from backend
     const fetchMessages = async () => {
       try {
-      const res = await fetch("https://apiinv.newblossomequb.net/api/rsvp");
+      const res = await fetch("https://api.paulandhella.com/api/rsvp");
         if (!res.ok) throw new Error("Failed to fetch messages");
         const data: RSVP[] = await res.json();
         setMessages(data.reverse()); // show newest first

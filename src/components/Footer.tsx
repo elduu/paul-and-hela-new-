@@ -7,7 +7,7 @@ const Footer = () => (
         Paul & Hella
       </h2>
       <p className="font-body text-xs tracking-[0.2em] uppercase text-background/60 mb-1">
-        September 15, 2026
+        May 2, 2026
       </p>
       <p className="font-body text-xs tracking-[0.15em] text-background/50 mb-8">
         Addis Ababa, Ethiopia

@@ -3,7 +3,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Heart } from "lucide-react";
 
 const API_URL =
-  "https://apiinv.newblossomequb.net/api/rsvp";
+  "https://api.paulandhella.com/api/rsvp";
 
 const RSVPForm = () => {
   const { ref, isVisible } = useScrollAnimation();

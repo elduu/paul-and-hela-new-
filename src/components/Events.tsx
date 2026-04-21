@@ -47,19 +47,37 @@ const Events = () => {
         </div>
 
         {/* Location Buttons */}
-        <div className="mt-8 flex flex-wrap justify-center gap-3">
+        <div className="mt-8 flex flex-nowrap sm:flex-wrap justify-start sm:justify-center gap-2 overflow-x-auto">
+
           {locationButtons.map((loc) => (
             <a
               key={loc.label}
               href={loc.mapUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border-2 border-foreground/80 bg-background font-body text-sm text-foreground hover:border-secondary hover:text-secondary transition-all duration-300"
+              className="
+                inline-flex items-center
+                whitespace-nowrap
+                text-xs sm:text-sm
+                px-3 py-1.5 sm:px-5 sm:py-2.5
+                rounded-full
+                border-2 border-foreground/80
+                bg-background
+                font-body
+                text-foreground
+                hover:border-secondary hover:text-secondary
+                transition-all duration-300
+              "
             >
-              <span className="text-lg">{loc.icon}</span>
+              {/* Hide icons on mobile */}
+              <span className="hidden sm:inline text-lg mr-2">
+                {loc.icon}
+              </span>
+
               {loc.label}
             </a>
           ))}
+
         </div>
 
       </div>

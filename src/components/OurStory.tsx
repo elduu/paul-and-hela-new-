@@ -6,27 +6,27 @@ import story4 from "@/assets/story-4.jpg";
 
 const milestones = [
   {
-    year: "2020",
+    year: "Hamle 24, 2016 E.C.",
     title: "How We Met",
-    text: "It was a warm evening in Addis Ababa when our eyes first met across a crowded room. In that single moment, the world seemed to pause, and we both knew something extraordinary had begun.",
+    text: "Our story began at a Christian fellowship program at the university. Paul saw her for the very first time when he was invited to preach the Word of God, while she was serving as a leader in the fellowship. From that moment, something about her stood out, and as time passed, his feelings began to grow until he realized they were truly special.",
     image: story1,
   },
   {
-    year: "2021",
-    title: "Our First Date",
-    text: "Over cups of traditional Ethiopian coffee, we talked for hours — sharing dreams, laughter, and the kind of silence that only kindred spirits understand.",
+    year: "Meskerem 21, 2017 E.C.",
+    title: "She Said Yes",
+    text: "With courage and hope, he asked her to go out and start dating. After some time of getting to know each other and growing closer, she said yes — a moment that filled their hearts with joy and marked the beginning of their journey together.",
     image: story2,
   },
   {
-    year: "2023",
-    title: "The Proposal",
-    text: "Beneath a canopy of stars in a garden filled with roses, he knelt down with a ring and a promise of forever. Through tears of joy, she whispered 'Yes.'",
+    year: "Meskerem 21, 2018 E.C.",
+    title: "Our Engagement",
+    text: "Exactly one year later, they took the next step and got engaged, celebrating a beautiful milestone that strengthened their commitment and love for one another.",
     image: story3,
   },
   {
-    year: "2026",
-    title: "Forever Begins",
-    text: "Now we stand at the threshold of our greatest adventure. With hearts full of gratitude and love, we invite you to witness the beginning of our forever.",
+    year: "Tikimt 2 → Miyazya 24, 2028 E.C.",
+    title: "Shemglena & Wedding",
+    text: "On Tikimt 2, the Shemglena request was formally sent, honoring family traditions and bringing both families together in preparation for the future. Now, with grateful hearts and deep love, they joyfully look forward to their wedding on Miyazya 24, 2028 E.C., the beginning of their lifelong journey together.",
     image: story4,
   },
 ];
