@@ -24,7 +24,7 @@ const milestones = [
     image: story3,
   },
   {
-    year: "Tikimt 2 → Miyazya 24, 2028 E.C.",
+    year: "Tikimt 2 → Miyazya 24, 2018 E.C.",
     title: "Shemglena & Wedding",
     text: "On Tikimt 2, the Shemglena request was formally sent, honoring family traditions and bringing both families together in preparation for the future. Now, with grateful hearts and deep love, they joyfully look forward to their wedding on Miyazya 24, 2028 E.C., the beginning of their lifelong journey together.",
     image: story4,
