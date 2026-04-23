@@ -76,8 +76,7 @@ const Hero = () => {
         </div>
 
         <a href="#rsvp" className="btn-gold-filled inline-block mt-12">
-          View Invitation
-        </a>
+          you are invited        </a>
       </div>
     </section>
   );

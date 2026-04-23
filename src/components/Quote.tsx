@@ -23,10 +23,11 @@ const Quote = () => {
         }`}
       >
         <span className="font-script text-5xl md:text-6xl text-secondary leading-tight block">
-          Two souls, one one heart,
+         “እግዚአብሔር ብቻውን መራው፤ ከእርሱም ጋር ሌላ አምላክ አልነበረም።”
+   
         </span>
         <span className="font-script text-5xl md:text-6xl text-secondary leading-tight block mt-2">
-          one beautiful future.
+      ዘዳግም 32፥12
         </span>
         <div className="w-16 h-px bg-secondary mx-auto mt-8" />
         <p className="font-body text-muted-foreground text-xs tracking-[0.3em] uppercase mt-6">
