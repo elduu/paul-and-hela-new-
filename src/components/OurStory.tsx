@@ -5,30 +5,30 @@ import story3 from "@/assets/story-3.jpg";
 import story4 from "@/assets/story-4.jpg";
 
 const milestones = [
-  {
-    year: "Hamle 24, 2016 E.C.",
-    title: "How We Met",
-    text: "Our story began at a Christian fellowship program at the university. Paul saw her for the very first time when he was invited to preach the Word of God, while she was serving as a leader in the fellowship. From that moment, something about her stood out, and as time passed, his feelings began to grow until he realized they were truly special.",
-    image: story1,
-  },
-  {
-    year: "Meskerem 21, 2017 E.C.",
-    title: "She Said Yes",
-    text: "With courage and hope, he asked her to go out and start dating. After some time of getting to know each other and growing closer, she said yes — a moment that filled their hearts with joy and marked the beginning of their journey together.",
-    image: story2,
-  },
-  {
-    year: "Meskerem 21,2018 E.C.",
-    title: "Our Engagement",
-    text: "Exactly year later, they took the next step and got engaged, celebrating a beautiful milestone that strengthened their commitment and love for one another.",
-    image: story3,
-  },
-  {
-    year: "Tikimt 2 → Miyazya 24, 2018 E.C.",
-    title: "Shemglena & Wedding",
-    text: "On Tikimt 2, the Shemglena request was formally sent, honoring family traditions and bringing both families together in preparation for the future. Now, with grateful hearts and deep love, they joyfully look forward to their wedding on Miyazya 24, 2028 E.C., the beginning of their lifelong journey together.",
-    image: story4,
-  },
+ {
+  year: "Hamle 24, 2016 E.C.",
+  title: "How We Met",
+  text: "Our story began at a Christian fellowship program at the university. We first met when Paul was invited to preach the Word of God, while I was serving as a leader in the fellowship. From that moment, something about that day stayed in our hearts, and as time passed, our connection grew into something truly special.",
+  image: story1,
+},
+{
+  year: "Meskerem 21, 2017 E.C.",
+  title: "She Said Yes",
+  text: "With courage and hope, we decided to take the first step and start dating. As we spent more time getting to know each other and growing closer, we said yes to beginning our journey together — a moment that filled our hearts with joy.",
+  image: story2,
+},
+{
+  year: "Meskerem 21, 2018 E.C.",
+  title: "Our Engagement",
+  text: "Exactly one year later, we took the next step and got engaged. It was a beautiful milestone that strengthened our commitment and deepened our love for one another.",
+  image: story3,
+},
+{
+  year: "Tikimt 2 → Miyazya 24, 2018 E.C.",
+  title: "Shemglena & Wedding",
+  text: "On Tikimt 2, the Shemglena request was formally sent, honoring our family traditions and bringing both families together in preparation for the future. Now, with grateful hearts and deep love, we joyfully look forward to our wedding on Miyazya 24, 2018 E.C., the beginning of our lifelong journey together.",
+  image: story4,
+},
 ];
 
 const TimelineItem = ({

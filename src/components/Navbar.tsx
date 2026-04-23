@@ -62,7 +62,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-background/98 backdrop-blur-lg shadow-xl transition-all duration-500 overflow-hidden ${
+        className={`md:hidden absolute top-full left-0 right-0 bg-background/98 backdrop-blur-sm shadow-xl transition-all duration-500 overflow-hidden ${
           isOpen ? "max-h-96 border-b border-secondary/20" : "max-h-0"
         }`}
       >

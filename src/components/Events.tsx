@@ -5,26 +5,21 @@ const locationButtons = [
     label: "Groom's House",
     icon: "🏠",
     mapUrl:
-      "https://www.google.com/maps/search/Groom's+House+Addis+Ababa+Ethiopia",
+      "https://maps.google.com/maps?q=9.013470,38.806547&ll=9.013470,38.806547&z=16",
   },
   {
     label: "Bride's House",
     icon: "🏡",
     mapUrl:
-      "https://www.google.com/maps/search/Bride's+House+Addis+Ababa+Ethiopia",
+      "https://maps.google.com/maps?q=20.820685,0.000005&ll=20.820685,0.000005&z=16",
   },
   {
     label: "Church",
     icon: "⛪",
     mapUrl:
-      "https://www.google.com/maps/search/Holy+Trinity+Cathedral+Addis+Ababa+Ethiopia",
+      "https://maps.app.goo.gl/HQMDLRcDaSBEsLbv7",
   },
-  {
-    label: "Hotel",
-    icon: "🏨",
-    mapUrl:
-      "https://www.google.com/maps/search/Capital+Hotel+Spa+Addis+Ababa+Ethiopia",
-  },
+ 
 ];
 
 const Events = () => {
