@@ -7,7 +7,7 @@ const Hero = () => {
 
   useEffect(() => {
     setLoaded(true);
-    const weddingDate = new Date("2026-05-03T10:00:00").getTime();
+    const weddingDate = new Date("2026-05-02T06:00:00").getTime();
     const tick = () => {
       const now = Date.now();
       const diff = weddingDate - now;
