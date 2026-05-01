@@ -13,7 +13,9 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-  outDir: "/var/www/paulandhella-site",
+  
+    outDir: "dist"
+  
 },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
