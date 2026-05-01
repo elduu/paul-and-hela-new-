@@ -1,5 +1,5 @@
-<!doctype html> 
-<html lang="en"></html>
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,7 @@
   <meta name="description"
         content="Join us to celebrate the wedding of Paul & Hella on May 03, 2026 in Addis Ababa, Ethiopia." />
 
-  <!-- FAVICON -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="/ring.png" />
 
   <!-- Open Graph -->
@@ -18,11 +18,17 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/ring.png" />
 
-  <script type="module" crossorigin src="/assets/index-J2d3KFOH.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-Dlt1MF2Y.css">
-</head>
+  <!-- Preload important files (optional but good for performance) -->
+  <link rel="preload" href="/assets/index-Dlt1MF2Y.css" as="style">
+  <link rel="preload" href="/assets/index-J2d3KFOH.js" as="script">
 
-  <body>
-    <div id="root"></div>
-  </body>
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/index-Dlt1MF2Y.css" crossorigin>
+
+  <!-- JavaScript Module -->
+  <script type="module" src="/assets/index-J2d3KFOH.js" crossorigin></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
 </html>
